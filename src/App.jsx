@@ -8,7 +8,7 @@ import "./App.css";
 import { useState } from "react";
 
 function App() {
-  
+
   const [darkMode, setDarkMode] = useState(false);
 
   function toggleDarkMode() {
@@ -118,7 +118,7 @@ function App() {
               dark:text-slate-300
             "
           >
-            Email
+            Email Address
           </label>
 
           <input
